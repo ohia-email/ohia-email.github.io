@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Terms of Use
 permalink: /terms/
 ---
@@ -7,6 +7,7 @@ permalink: /terms/
 # Terms of Use
 
 Effective September 5, 2026
+{: .doc-meta}
 
 Ohia is a native macOS email client developed by Jason G. Karlin. These terms describe use of the public website and development versions of Ohia made available by the developer.
 
@@ -32,6 +33,3 @@ The [Privacy Policy](/privacy/) explains data use, optional external connections
 
 Questions about these terms can be sent to [ohia_email@icloud.com](mailto:ohia_email@icloud.com). Updates will be posted here with a revised effective date. These terms do not limit rights that cannot lawfully be limited.
 
----
-
-[Home](/) · [Privacy Policy](/privacy/) · [Manage and delete your data](/data-controls/) · [Support](/support/)

@@ -4,7 +4,6 @@ description: A native macOS email client for reading, organizing, searching, and
 url: https://ohia-email.github.io
 baseurl: ""
 lang: en-US
-theme: jekyll-theme-primer
 google_site_verification: De4ld1MUKgEwRa-5sUPRnF3IF81v66pk6rfyQptl4rM
 plugins:
   - jekyll-seo-tag

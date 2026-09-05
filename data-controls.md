@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Manage and delete your data
 permalink: /data-controls/
 ---
@@ -34,6 +34,3 @@ In **Ohia Settings → Sources**, disable automatic research, disable a source, 
 
 To request deletion of information you sent to Ohia support, contact [ohia_email@icloud.com](mailto:ohia_email@icloud.com). Identify the request or correspondence to locate, without including passwords or additional private email.
 
----
-
-[Home](/) · [Privacy Policy](/privacy/) · [Terms of Use](/terms/) · [Support](/support/)

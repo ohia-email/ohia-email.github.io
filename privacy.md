@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Privacy Policy
 permalink: /privacy/
 ---
@@ -7,6 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 Effective September 5, 2026
+{: .doc-meta}
 
 This policy describes how Ohia, a native macOS email client developed by Jason G. Karlin, handles information. Contact: [ohia_email@icloud.com](mailto:ohia_email@icloud.com).
 
@@ -56,7 +57,7 @@ Use Ohia's full reset to remove its accounts, stored credentials, local messages
 
 ## This website
 
-This public site does not request access to your mailbox. It is hosted by GitHub Pages and uses theme assets delivered by GitHub Pages and Cloudflare's cdnjs. These hosts receive ordinary web-request information. See [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) and [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/). Ohia has not added advertising or visitor-analytics tools to this site.
+This public site does not request access to your mailbox. It is hosted by GitHub Pages, which serves the site's pages, stylesheet, and images and receives ordinary web-request information. See [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The site loads no third-party scripts, fonts, or assets, and Ohia has not added advertising or visitor-analytics tools to it.
 
 ## Changes and contact
 
@@ -64,6 +65,3 @@ Changes to this policy will appear here with a new effective date. Material chan
 
 For privacy questions or support-data deletion requests, email [ohia_email@icloud.com](mailto:ohia_email@icloud.com) with the subject “Ohia privacy.” You do not need to send mailbox contents to make a request.
 
----
-
-[Home](/) · [Manage and delete your data](/data-controls/) · [Terms of Use](/terms/) · [Support](/support/)

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Support
 permalink: /support/
 ---
@@ -18,6 +18,3 @@ Ohia is in active development. Public provider approval and a general release ar
 
 [Manage and delete your data](/data-controls/) explains account revocation, local-data reset, and connected-source controls.
 
----
-
-[Home](/) · [Privacy Policy](/privacy/) · [Manage and delete your data](/data-controls/) · [Terms of Use](/terms/)
