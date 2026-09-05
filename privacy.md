@@ -8,7 +8,7 @@ permalink: /privacy/
 
 Effective September 5, 2026
 
-This policy describes how Ohia, a native macOS email client developed by Jason G. Karlin, handles information. Contact: [jgkarlin@gmail.com](mailto:jgkarlin@gmail.com).
+This policy describes how Ohia, a native macOS email client developed by Jason G. Karlin, handles information. Contact: [ohia_email@icloud.com](mailto:ohia_email@icloud.com).
 
 ## Information Ohia accesses
 
@@ -62,7 +62,7 @@ This public site does not request access to your mailbox. It is hosted by GitHub
 
 Changes to this policy will appear here with a new effective date. Material changes to email-data use require updated notice and any required user consent before that new use begins.
 
-For privacy questions or support-data deletion requests, email [jgkarlin@gmail.com](mailto:jgkarlin@gmail.com) with the subject “Ohia privacy.” You do not need to send mailbox contents to make a request.
+For privacy questions or support-data deletion requests, email [ohia_email@icloud.com](mailto:ohia_email@icloud.com) with the subject “Ohia privacy.” You do not need to send mailbox contents to make a request.
 
 ---
 

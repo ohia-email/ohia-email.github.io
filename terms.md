@@ -30,7 +30,7 @@ The [Privacy Policy](/privacy/) explains data use, optional external connections
 
 ## Contact and updates
 
-Questions about these terms can be sent to [jgkarlin@gmail.com](mailto:jgkarlin@gmail.com). Updates will be posted here with a revised effective date. These terms do not limit rights that cannot lawfully be limited.
+Questions about these terms can be sent to [ohia_email@icloud.com](mailto:ohia_email@icloud.com). Updates will be posted here with a revised effective date. These terms do not limit rights that cannot lawfully be limited.
 
 ---
 

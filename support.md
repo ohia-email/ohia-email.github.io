@@ -8,7 +8,7 @@ permalink: /support/
 
 Ohia is developed by **Jason G. Karlin**.
 
-For product questions, development access, account-connection help, or privacy requests, email **[jgkarlin@gmail.com](mailto:jgkarlin@gmail.com)**. Include “Ohia” in the subject.
+For product questions, development access, account-connection help, or privacy requests, email **[ohia_email@icloud.com](mailto:ohia_email@icloud.com)**. Include “Ohia” in the subject.
 
 For a technical issue, include your Ohia version, macOS version, the steps involved, and the error message. Redact private addresses and message content when they are not needed. Never send passwords, app-specific passwords, authorization codes, access tokens, or refresh tokens.
 

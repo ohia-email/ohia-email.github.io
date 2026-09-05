@@ -32,7 +32,7 @@ In **Ohia Settings → Sources**, disable automatic research, disable a source, 
 
 ## Support correspondence
 
-To request deletion of information you sent to Ohia support, contact [jgkarlin@gmail.com](mailto:jgkarlin@gmail.com). Identify the request or correspondence to locate, without including passwords or additional private email.
+To request deletion of information you sent to Ohia support, contact [ohia_email@icloud.com](mailto:ohia_email@icloud.com). Identify the request or correspondence to locate, without including passwords or additional private email.
 
 ---
 
