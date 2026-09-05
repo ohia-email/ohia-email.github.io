@@ -4,6 +4,10 @@ title: Ohia
 permalink: /
 ---
 
+<p align="center">
+  <img src="/assets/images/ohia.png" alt="Ohia flower emblem with red petals, yellow stamens, and green leaves" width="240" style="background: transparent; height: auto;" />
+</p>
+
 # Ohia
 
 ## Your correspondence. Your context. Your Mac.
