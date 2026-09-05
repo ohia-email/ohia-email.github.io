@@ -4,9 +4,9 @@ Public product information, privacy policy, data controls, terms, and support fo
 
 **Website:** https://ohia-email.github.io/
 
-This repository contains Markdown documents and GitHub Pages configuration only. Ohia's application source code, account configuration, and private development materials are not included.
+This repository contains the homepage (HTML with a custom layout), Markdown documents, and GitHub Pages configuration only. Ohia's application source code, account configuration, and private development materials are not included.
 
-- [Homepage](index.md)
+- [Homepage](index.html) (custom `home` layout; styles in `assets/css/home.css`)
 - [Privacy Policy](privacy.md)
 - [Manage and delete your data](data-controls.md)
 - [Terms of Use](terms.md)
