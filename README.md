@@ -2,7 +2,7 @@
 
 Public product information, privacy policy, data controls, terms, and support for Ohia, a native macOS email client developed by Jason G. Karlin.
 
-**Website:** https://ohia-app.github.io/
+**Website:** https://ohia-email.github.io/
 
 This repository contains Markdown documents and GitHub Pages configuration only. Ohia's application source code, account configuration, and private development materials are not included.
 
