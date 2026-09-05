@@ -27,6 +27,28 @@ body::before {
   filter: blur(64px);
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 7% 13%, #dbeaff 0.7px, transparent 1.8px),
+    radial-gradient(circle at 24% 39%, #a3c4de 0.5px, transparent 1.3px),
+    radial-gradient(circle at 48% 8%, #dceaff 0.8px, transparent 2px),
+    radial-gradient(circle at 71% 28%, #94b8d0 0.6px, transparent 1.5px),
+    radial-gradient(circle at 91% 61%, #e1f0ff 1px, transparent 2.2px),
+    radial-gradient(circle at 34% 76%, #a8c8e4 0.7px, transparent 1.5px),
+    radial-gradient(circle at 58% 54%, #c8dcec 0.6px, transparent 1.4px),
+    radial-gradient(circle at 13% 89%, #acc6e4 0.5px, transparent 1.4px),
+    radial-gradient(circle at 83% 93%, #c9dced 0.7px, transparent 1.7px),
+    radial-gradient(circle at 62% 84%, #8eafcb 0.5px, transparent 1.3px);
+  background-size: 547px 419px, 389px 503px, 733px 617px, 457px 673px,
+    823px 541px, 619px 787px, 353px 463px, 677px 359px, 911px 701px, 431px 593px;
+  opacity: 0.42;
+}
+
 .markdown-body {
   color: #dce5ee;
   background: transparent;
