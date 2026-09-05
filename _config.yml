@@ -1,7 +1,7 @@
 title: Ohia
 tagline: Email, with context.
 description: A native macOS email client for reading, organizing, searching, and writing with the context of your correspondence.
-url: https://jgkarlin.github.io
+url: https://ohia-app.github.io
 baseurl: ""
 lang: en-US
 theme: jekyll-theme-primer
