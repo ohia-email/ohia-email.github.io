@@ -1,0 +1,77 @@
+---
+---
+
+@import "jekyll-theme-primer";
+
+html {
+  min-height: 100%;
+  background: #050508;
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background: transparent;
+  isolation: isolate;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle 600px at 30% 34%, rgba(28, 71, 148, 0.55) 8px, rgba(28, 71, 148, 0) 600px),
+    radial-gradient(circle 620px at 72% 64%, rgba(26, 112, 128, 0.42) 8px, rgba(26, 112, 128, 0) 620px);
+  filter: blur(64px);
+}
+
+.markdown-body {
+  color: #dce5ee;
+  background: transparent;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body strong {
+  color: #f0f5fa;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom-color: rgba(194, 215, 235, 0.22);
+}
+
+.markdown-body a {
+  color: #92d9ed;
+}
+
+.markdown-body a:hover {
+  color: #c7f3ff;
+}
+
+.markdown-body a:focus-visible {
+  outline: 2px solid #e9f24b;
+  outline-offset: 4px;
+}
+
+.markdown-body table tr,
+.markdown-body table tr:nth-child(2n) {
+  background: rgba(5, 12, 23, 0.42);
+  border-color: rgba(194, 215, 235, 0.22);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  border-color: rgba(194, 215, 235, 0.22);
+}
+
+.markdown-body hr {
+  background: rgba(194, 215, 235, 0.22);
+}
+
+.markdown-body .anchor .octicon {
+  color: #92d9ed;
+}
