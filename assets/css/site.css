@@ -4,9 +4,9 @@ html { color-scheme: dark; scroll-behavior: smooth; }
 .section, .frame { scroll-margin-top: 72px; }
 :root {
   --bg: #050508;
-  --panel: #0a0a10;
+  --panel: #000000;
   --chrome: #1f1f20;
-  --hair: rgba(255,255,255,0.10);
+  --hair: rgba(255,255,255,0.08);
   --hair2: rgba(255,255,255,0.12);
   --hair3: rgba(255,255,255,0.15);
   --t1: #e0e0e8;
@@ -57,7 +57,7 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; text-wrap: ba
 .tv.dim { color: var(--t2); }
 
 /* panels (mock UI) */
-.panel { background: var(--panel); border: 1px solid var(--hair2); border-radius: 8px; }
+.panel { background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; }
 .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--hair); }
 .bar { position: relative; height: 3px; border-radius: 2px; background: var(--hair2); overflow: hidden; }
 .bar > span { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px; background: var(--t2); }
@@ -90,8 +90,8 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; text-wrap: ba
 .entry .ring { position: absolute; left: -12px; top: -12px; width: 24px; height: 24px; border-radius: 50%; border: 1px solid var(--acc); opacity: 0.35; animation: pulse 3.5s ease-in-out infinite; }
 .entry .label { position: absolute; left: 16px; top: -8px; font-size: 11.5px; font-weight: 500; color: var(--t1); white-space: nowrap; letter-spacing: 0; }
 .entry.r .label { left: auto; right: 16px; }
-.entry .readout { position: absolute; left: 16px; top: 14px; width: 232px; padding: 10px 12px 12px 14px; border-radius: 6px; border: 1px solid var(--hair2); background: linear-gradient(180deg, var(--rd-top), var(--rd-bot)); box-shadow: 0 12px 28px rgba(0,0,0,0.45); opacity: 0; transform: translateY(4px); transition: opacity 160ms ease, transform 160ms ease; pointer-events: none; display: flex; flex-direction: column; gap: 6px; }
-.entry .readout::before { content: ""; position: absolute; left: 0; top: 8px; bottom: 8px; width: 2px; border-radius: 1px; background: var(--acc); }
+.entry .readout { position: absolute; left: 16px; top: 14px; width: 232px; padding: 10px 12px 12px 14px; border-radius: 4px; border: 1px solid var(--hair); background: linear-gradient(180deg, var(--rd-top), var(--rd-bot)); box-shadow: 0 8px 16px rgba(0,0,0,0.45); opacity: 0; transform: translateY(4px); transition: opacity 160ms ease, transform 160ms ease; pointer-events: none; display: flex; flex-direction: column; gap: 6px; }
+.entry .readout::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--acc); }
 .entry.r .readout { left: auto; right: 16px; }
 .entry.up .readout { top: auto; bottom: 14px; }
 .entry:hover .readout, .entry:focus-visible .readout { opacity: 1; transform: translateY(0); }
@@ -118,7 +118,7 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; text-wrap: ba
 .split-a { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); }
 .split-b { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); }
 .kv2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.frame { display: flex; flex-direction: column; gap: 12px; padding: 14px; border: 1px solid var(--hair2); border-radius: 8px; background: var(--panel); }
+.frame { display: flex; flex-direction: column; gap: 12px; padding: 14px; border: 1px solid var(--hair); border-radius: 8px; background: var(--panel); }
 .frame svg { width: 100%; height: auto; display: block; }
 .frame .body2 { font-size: 13px; line-height: 1.5; }
 .dia { border-radius: 6px; background: var(--bg); border: 1px solid var(--hair); }
@@ -139,11 +139,30 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; text-wrap: ba
 .band-end { grid-column: 7; margin-top: 22px; min-height: 36px; display: flex; align-items: center; gap: 8px; padding: 8px 0 8px 14px; font-size: 11px; color: var(--acc); border-left: 1px solid var(--acc60); }
 
 /* message card mock */
-.msg { display: flex; flex-direction: column; }
-.msg-body { padding: 14px 16px 18px; font-size: 13px; line-height: 1.6; color: var(--t1); display: flex; flex-direction: column; gap: 10px; }
-.field-row { display: grid; grid-template-columns: 56px minmax(0,1fr); gap: 10px; font-size: 12px; align-items: baseline; }
-.field-row .k { color: var(--t3); text-align: right; font-size: 10px; }
-.field-row .v { color: var(--t1); }
+/* Message card — mirrors LockedEmailCard: header, hairline divider, body, hairline divider. */
+.msgcard { display: flex; flex-direction: column; }
+.msgcard-top { display: flex; align-items: center; gap: 8px; padding: 12px 12px 0 16px; }
+.msgcard-mark { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,0.45); }
+.msgcard-mark .rule { width: 18px; height: 1px; background: var(--acc); flex: none; }
+.msgcard-mark span { font-size: 10.5px; letter-spacing: 0.6px; color: var(--acc); }
+.msgcard-icon { width: 20px; height: 20px; border-radius: 4px; display: inline-flex; align-items: center; justify-content: center; color: var(--t2); font-size: 10px; }
+.msgcard-subject { padding: 8px 12px 0 16px; font-size: 14px; font-weight: 600; color: var(--t1); }
+.msgcard-from { padding: 4px 12px 0 16px; font-size: 12px; color: var(--t2); }
+.msgcard-catrow { display: flex; align-items: center; gap: 8px; padding: 8px 12px 12px 16px; }
+.msgcard-tag { display: inline-flex; align-items: center; gap: 4px; height: 20px; padding: 0 5px; border-radius: 6px; background: var(--chrome); border: 1px solid var(--hair2); color: var(--t2); font-size: 10px; }
+.msgcard-div { height: 1px; background: var(--hair); }
+.msgcard-body { padding: 12px 16px 16px; font-size: 12.5px; line-height: 1.6; color: var(--t1); display: flex; flex-direction: column; gap: 10px; }
+
+/* Annotation-style card — mirrors AnnotationPopup: leading 2px accent stripe,
+   4px radius, glassBorder stroke, minimal accent-rule header, telemetry extras. */
+.annot { position: relative; background: linear-gradient(180deg, var(--rd-top), var(--rd-bot)); border: 1px solid var(--hair); border-radius: 4px; box-shadow: 0 8px 16px rgba(0,0,0,0.45); overflow: hidden; }
+.annot::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--acc); }
+.annot-head { display: flex; align-items: center; gap: 7px; padding: 8px 8px 8px 14px; }
+.annot-head .rule { width: 18px; height: 1px; background: var(--acc); flex: none; }
+.annot-head .label { font-size: 9.5px; font-weight: 600; letter-spacing: 0.4px; text-transform: uppercase; color: var(--acc); }
+.annot-head .chev { margin-left: auto; font-size: 9px; color: var(--t2); }
+.annot-div { height: 1px; background: var(--hair); }
+.annot-extras { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 16px; }
 
 /* pipeline strip */
 .strip { display: flex; align-items: center; gap: 0; padding: 10px 14px; border: 1px solid var(--hair2); border-radius: 8px; background: var(--chrome); flex-wrap: wrap; row-gap: 10px; }
