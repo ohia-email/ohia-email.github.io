@@ -98,6 +98,9 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; text-wrap: ba
 .entry.up .readout { top: auto; bottom: 14px; }
 .entry:hover .readout, .entry:focus-visible .readout { opacity: 1; transform: translateY(0); }
 .entry:hover .label { color: var(--acc); }
+.entry:focus-visible { outline: none; }
+.entry:focus-visible .dot { box-shadow: 0 0 0 3px var(--bg), 0 0 0 6px var(--acc), 0 0 10px rgba(248,248,56,0.55); }
+.entry:focus-visible .label { color: var(--acc); }
 .rd-title { font-size: 11.5px; font-weight: 600; color: var(--t1); }
 .rd-sub { font-size: 10.5px; color: var(--t2); line-height: 1.4; }
 .rd-row { display: grid; grid-template-columns: 58px minmax(0,1fr); gap: 8px; align-items: baseline; }
