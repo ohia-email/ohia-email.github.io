@@ -16,9 +16,6 @@ html { color-scheme: dark; scroll-behavior: smooth; }
   --acc: #F8F838;
   --acc18: rgba(248,248,56,0.18);
   --acc60: rgba(248,248,56,0.60);
-  --leaf: #70B818;
-  --petal: #E83838;
-  --btnfill: rgba(99,135,255,0.15);
   --rd-top: #111624;
   --rd-bot: #0a0c14;
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,9 +41,10 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; text-wrap: ba
 /* chrome vocabulary */
 .chip { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: 4px; font-size: 11px; font-weight: 400; color: var(--t2); background: var(--chrome); border: 1px solid var(--hair2); white-space: nowrap; }
 .chip.on { color: var(--acc); background: var(--acc18); border-color: var(--acc60); font-weight: 600; }
-.emblem { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 32px; border-radius: 8px; background: var(--btnfill); border: 1px solid var(--acc); color: var(--leaf); font-size: 14px; font-weight: 500; white-space: nowrap; }
-.emblem:hover { color: var(--leaf); background: rgba(99,135,255,0.22); }
-.emblem.sm { height: 30px; padding: 0 14px; font-size: 12px; }
+.cta { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 40px; padding: 0 28px; border-radius: 8px; background: var(--acc); color: var(--bg); font-size: 14px; font-weight: 600; white-space: nowrap; }
+.cta:hover { background: #fffb6e; }
+.cta-outline { display: inline-flex; align-items: center; justify-content: center; height: 26px; padding: 0 12px; border-radius: 6px; border: 1px solid var(--acc60); color: var(--acc); font-size: 11px; font-weight: 600; background: transparent; white-space: nowrap; }
+.cta-outline:hover { background: var(--acc18); }
 .textlink { color: var(--t2); border-bottom: 1px solid var(--hair3); padding-bottom: 1px; }
 .textlink:hover { color: var(--acc); border-bottom-color: var(--acc60); }
 .hr { height: 1px; background: var(--hair); }
